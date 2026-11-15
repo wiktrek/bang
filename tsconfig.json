@@ -1,0 +1,12 @@
+{
+  "extends": "astro/tsconfigs/strict",
+  "compilerOptions": {
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "skipLibCheck": true,
+    "jsx": "preserve",
+    "jsxImportSource": "solid-js",
+    "lib": ["ES2022", "DOM", "DOM.Iterable"]
+  },
+  "include": [".astro/types.d.ts", "src"]
+}

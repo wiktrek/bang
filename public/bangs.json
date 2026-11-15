@@ -1,0 +1,247 @@
+[
+  {
+    "triggers": [
+      "g",
+      "google"
+    ],
+    "name": "Google",
+    "url": "https://www.google.com/search?q=%s"
+  },
+  {
+    "triggers": [
+      "gi"
+    ],
+    "name": "Google Images",
+    "url": "https://www.google.com/search?tbm=isch&q=%s"
+  },
+  {
+    "triggers": [
+      "gm",
+      "maps"
+    ],
+    "name": "Google Maps",
+    "url": "https://www.google.com/maps/search/%s"
+  },
+  {
+    "triggers": [
+      "ddg"
+    ],
+    "name": "DuckDuckGo",
+    "url": "https://duckduckgo.com/?q=%s"
+  },
+  {
+    "triggers": [
+      "b",
+      "bing"
+    ],
+    "name": "Bing",
+    "url": "https://www.bing.com/search?q=%s"
+  },
+  {
+    "triggers": [
+      "k",
+      "kagi"
+    ],
+    "name": "Kagi",
+    "url": "https://kagi.com/search?q=%s"
+  },
+  {
+    "triggers": [
+      "t3"
+    ],
+    "name": "T3 Chat",
+    "url": "https://t3.chat/new?q=%s"
+  },
+  {
+    "triggers": [
+      "cl",
+      "claude"
+    ],
+    "name": "Claude",
+    "url": "https://claude.ai/new?q=%s"
+  },
+  {
+    "triggers": [
+      "gpt"
+    ],
+    "name": "ChatGPT",
+    "url": "https://chatgpt.com/?q=%s"
+  },
+  {
+    "triggers": [
+      "pp",
+      "perplexity"
+    ],
+    "name": "Perplexity",
+    "url": "https://www.perplexity.ai/search?q=%s"
+  },
+  {
+    "triggers": [
+      "gh"
+    ],
+    "name": "GitHub",
+    "url": "https://github.com/search?q=%s"
+  },
+  {
+    "triggers": [
+      "ghr"
+    ],
+    "name": "GitHub repos",
+    "url": "https://github.com/search?type=repositories&q=%s"
+  },
+  {
+    "triggers": [
+      "mdn"
+    ],
+    "name": "MDN",
+    "url": "https://developer.mozilla.org/en-US/search?q=%s"
+  },
+  {
+    "triggers": [
+      "so"
+    ],
+    "name": "Stack Overflow",
+    "url": "https://stackoverflow.com/search?q=%s"
+  },
+  {
+    "triggers": [
+      "npm"
+    ],
+    "name": "npm",
+    "url": "https://www.npmjs.com/search?q=%s"
+  },
+  {
+    "triggers": [
+      "crates",
+      "rs"
+    ],
+    "name": "crates.io",
+    "url": "https://crates.io/search?q=%s"
+  },
+  {
+    "triggers": [
+      "docs"
+    ],
+    "name": "docs.rs",
+    "url": "https://docs.rs/releases/search?query=%s"
+  },
+  {
+    "triggers": [
+      "pypi"
+    ],
+    "name": "PyPI",
+    "url": "https://pypi.org/search/?q=%s"
+  },
+  {
+    "triggers": [
+      "go"
+    ],
+    "name": "Go packages",
+    "url": "https://pkg.go.dev/search?q=%s"
+  },
+  {
+    "triggers": [
+      "aur"
+    ],
+    "name": "AUR",
+    "url": "https://aur.archlinux.org/packages?K=%s"
+  },
+  {
+    "triggers": [
+      "arch",
+      "aw"
+    ],
+    "name": "ArchWiki",
+    "url": "https://wiki.archlinux.org/index.php?search=%s"
+  },
+  {
+    "triggers": [
+      "hn"
+    ],
+    "name": "Hacker News (Algolia)",
+    "url": "https://hn.algolia.com/?q=%s"
+  },
+  {
+    "triggers": [
+      "can",
+      "caniuse"
+    ],
+    "name": "Can I use",
+    "url": "https://caniuse.com/?search=%s"
+  },
+  {
+    "triggers": [
+      "yt"
+    ],
+    "name": "YouTube",
+    "url": "https://www.youtube.com/results?search_query=%s"
+  },
+  {
+    "triggers": [
+      "r",
+      "reddit"
+    ],
+    "name": "Reddit",
+    "url": "https://www.reddit.com/search/?q=%s"
+  },
+  {
+    "triggers": [
+      "x",
+      "tw"
+    ],
+    "name": "X",
+    "url": "https://x.com/search?q=%s"
+  },
+  {
+    "triggers": [
+      "w",
+      "wiki"
+    ],
+    "name": "Wikipedia (EN)",
+    "url": "https://en.wikipedia.org/wiki/Special:Search?search=%s"
+  },
+  {
+    "triggers": [
+      "wpl"
+    ],
+    "name": "Wikipedia (PL)",
+    "url": "https://pl.wikipedia.org/wiki/Special:Search?search=%s"
+  },
+  {
+    "triggers": [
+      "tr",
+      "translate"
+    ],
+    "name": "Google Translate",
+    "url": "https://translate.google.com/?sl=auto&tl=en&text=%s"
+  },
+  {
+    "triggers": [
+      "tpl"
+    ],
+    "name": "Google Translate → PL",
+    "url": "https://translate.google.com/?sl=auto&tl=pl&text=%s"
+  },
+  {
+    "triggers": [
+      "wa"
+    ],
+    "name": "Wolfram Alpha",
+    "url": "https://www.wolframalpha.com/input?i=%s"
+  },
+  {
+    "triggers": [
+      "imdb"
+    ],
+    "name": "IMDb",
+    "url": "https://www.imdb.com/find/?q=%s"
+  },
+  {
+    "triggers": [
+      "a",
+      "amazon"
+    ],
+    "name": "Amazon",
+    "url": "https://www.amazon.com/s?k=%s"
+  }
+]

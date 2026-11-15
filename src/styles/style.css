@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bg: #fbfaf8;
+  --color-fg: #1b1a18;
+  --color-muted: #76726b;
+  --color-line: #e6e2dc;
+  --color-field: #ffffff;
+  --color-accent: #e4572e;
+  --color-ok: #2f7d4f;
+  --color-err: #c0392b;
+  --font-sans: system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-mono: ui-monospace, "SF Mono", "JetBrains Mono", Menlo, Consolas, monospace;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-bg: #131211;
+    --color-fg: #ecebe8;
+    --color-muted: #8f8b84;
+    --color-line: #2a2826;
+    --color-field: #1b1a18;
+    --color-accent: #ff7a50;
+    --color-ok: #5cc28a;
+    --color-err: #ff6b5e;
+  }
+}
+
+@layer base {
+  :root { color-scheme: light dark; }
+  body { @apply bg-bg text-fg font-sans text-[15px] leading-[1.55] antialiased; }
+  a { @apply underline decoration-accent underline-offset-3; }
+  code { @apply font-mono text-[0.92em]; }
+  h2 { @apply mb-1 text-[13px] font-semibold tracking-[0.06em] uppercase; }
+}
+
+@layer components {
+  .field {
+    @apply w-full min-w-0 rounded-lg border border-line bg-field px-[11px] py-[9px] outline-none transition-colors focus:border-accent;
+  }
+  .btn {
+    @apply cursor-pointer whitespace-nowrap rounded-lg border border-fg bg-fg px-4 py-[9px] font-semibold text-bg hover:opacity-85;
+  }
+  .btn-ghost { @apply border-line bg-transparent text-fg; }
+  .btn-link {
+    @apply cursor-pointer p-0 font-medium text-muted underline underline-offset-3 hover:text-fg;
+  }
+  .chip { @apply inline-block rounded-[5px] bg-accent/12 px-1.5 py-px font-mono text-[12.5px] text-accent; }
+  .tag { @apply ml-1 rounded-full border border-line px-[7px] align-[1px] text-[11px] text-muted; }
+}

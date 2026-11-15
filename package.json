@@ -1,0 +1,21 @@
+{
+  "name": "bang",
+  "private": true,
+  "type": "module",
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "tsc --noEmit && astro build",
+    "preview": "astro preview"
+  },
+  "devDependencies": {
+    "typescript": "^7.0.2"
+  },
+  "dependencies": {
+    "@astrojs/solid-js": "7.1.6",
+    "@tailwindcss/vite": "4.3.5",
+    "astro": "7.4.12",
+    "solid-js": "1.9.18",
+    "tailwindcss": "4.3.5"
+  }
+}
